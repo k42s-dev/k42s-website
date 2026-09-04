@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>k42s.dev</title>
-	</head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>k42s - Kubernetes... and the answer is 42.</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-	<body>
-		<img src="k42s-logo.png">
-	</body>
+  <header class="banner">
+    <div class="banner-logo">
+      <img src="k42s-logo.png" alt="k42s logo">
+    </div>
+    <div class="banner-tagline">
+      <img src="k42s-text.png" alt="/'keɪ fɔːr tuː ɛs/">
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html" class="active">Overview</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="terminal.html">Hands-on</a>
+    <a href="https://github.com/k42s-dev" target="_blank">GitHub</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h1>Kubernetes...<br><span>and the answer is 42.</span></h1>
+      <p>
+      Get your Kubernetes, automation and CI/CD infrastructure into shape — without hiring another full-time engineer.<br>
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="terminal.html">Hands-on</a>
+	<!-- <a class="btn secondary" href="#">Read the docs</a> -->
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <div class="dot"></div>
+        <h3>Kubernetes</h3>
+	<p>Kubernetes improvements (Helm, best practices, hardening, GitOps)<br>
+	Currently scoped to smaller, well-defined engagements while k42s builds out its certification track
+	</p>
+      </div>
+      <div class="feature">
+        <div class="dot"></div>
+	<h3>CI/CD</h3>
+	<p>CI/CD pipelines (GitHub Actions, GitLab CI, Azure DevOps)</p>
+      </div>
+      <div class="feature">
+        <div class="dot"></div>
+        <h3>Automation</h3>
+        <p>Automation with Ansible & Terraform</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 k42s. All rights reserved.
+  </footer>
+
+</body>
 </html>

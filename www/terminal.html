@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>k42s — Get started</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="terminal-styles.css">
+</head>
+<body>
+
+  <header class="banner">
+    <div class="banner-logo">
+      <img src="k42s-logo.png" alt="k42s logo">
+    </div>
+    <div class="banner-tagline">
+      <img src="k42s-text.png" alt="/'keɪ fɔːr tuː ɛs/">
+    </div>
+  </header>
+
+<nav class="nav">
+  <a href="index.html">Overview</a>
+  <a href="services.html">Services</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="terminal.html" class="active">Hands-on</a>
+  <a href="https://github.com/k42s-dev" target="_blank">GitHub</a>
+</nav>
+
+<main>
+	<!-- <p class="lede">Type <b style="color:var(--orange)">help</b> to see what k42s can do</p> -->
+
+  <div class="term-wrap">
+    <div class="term-bar">
+      <span>terminal — k42s get-started</span>
+      <span class="path">guest@k42s:~</span>
+    </div>
+    <div class="term-body" id="termBody">
+      <!-- history renders here -->
+    </div>
+  </div>
+
+  <p class="hint">Try: <b>help</b> · <b>services</b> · <b>pricing</b> · <b>request "migrate our CI to GitLab"</b> · <b>contact</b></p>
+</main>
+
+  <footer>
+    &copy; 2026 k42s. All rights reserved.
+  </footer>
+
+<script src="js/terminal.js"></script>
+</body>
+</html>
